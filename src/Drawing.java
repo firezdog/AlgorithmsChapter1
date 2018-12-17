@@ -1,6 +1,6 @@
-import StdDraw;
+import edu.princeton.cs.algs4.StdDraw;
 
-public class Drawing 
+public class Drawing
 {
     static void drawCurves()
     {
