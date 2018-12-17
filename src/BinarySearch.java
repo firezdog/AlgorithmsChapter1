@@ -28,8 +28,9 @@ public class BinarySearch
         while (!StdIn.isEmpty())
         {
             int key = StdIn.readInt();
-            if (rank(key, whitelist) == -1)
-                StdOut.println(key);
+            if (rank(key, whitelist) != -1)
+                StdOut.printf("%s found\n", key);
+            else StdOut.printf("%s not found\n", key);
         }
         StdOut.print("All done!");
     }
